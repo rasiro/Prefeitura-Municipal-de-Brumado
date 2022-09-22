@@ -1,0 +1,133 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:0;
+}
+
+@font-face{
+	font-family:'principal';
+	src:url('../fonte.otf');
+}
+
+body{
+	background-color:white;
+}
+header{
+	font-family:'principal';
+}
+
+#buscar{
+  display:fex;
+  background-color:#FFFAFA;
+  border:solid 1px;
+  border-radius:15px;
+  border-color:red;
+  width:300px;
+}
+#lupa{
+	width:27px;
+}
+#txtbuscar{
+  float:left;
+  background-color:transparent;
+  padding-left:3px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  border-radius:15px;
+  border-color:#FFFAFA;
+  height:32px;
+  width:260px;
+}
+#logo{
+	width:500px;
+	height:200px;
+	background-repeat:no-repeat;
+	background-image:url('../imagens/logobrumado.png');
+	background-position:center;
+	margin-left:auto;
+    margin-right:auto;
+}
+
+nav{
+	background-color:#FF0000;
+	font-family:'principal';
+}
+
+nav ul{
+	display:flex;
+	list-style:none;
+	height:50px;
+	justify-content:space-evenly;
+	align-items:center;
+}
+
+a{
+	text-decoration:none;
+}
+
+main{
+	font-family:'principal';
+}
+
+.principal{
+	display:grid;
+	grid-template-columns:90% 10%;
+	
+}
+.redes {
+   justify-self:end;
+}
+footer{
+	font-family:'principal';
+  background-color:red;
+  display: grid;
+  grid-template-columns:80% 20%;
+  grid-auto-rows: 120px;
+}
+.rodape{
+	display:grid;
+	grid-template-columns:80% 20%;
+}
+
+.informacoes{
+	justify-self:end;
+}
+h4{
+	color:white;
+}
+.noticias{
+	text-align:center;
+}
+#uniaobrasil{
+	width:500px;
+	height:300px;
+}
+
+#apae{
+	width:500px;
+	height:300px;
+}
+
+#titulo{
+	width:500px;
+	height:300px;
+}
+
+#boxe{
+	width:500px;
+	height:300px;
+}
+
+#igreja{
+	width:500px;
+	height:300px;
+}
+
+h1{
+	margin:20px;
+}
+
+article{
+	margin:30px;
+}
