@@ -1,0 +1,136 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:0;
+}
+@font-face{
+	font-family:'principal';
+	src:url('fonte.otf');
+}
+body{
+	background-color:white;
+}
+header{
+	
+}
+
+#buscar{
+  display:fex;
+  background-color:#FFFAFA;
+  border:solid 1px;
+  border-radius:15px;
+  border-color:red;
+  width:300px;
+}
+#lupa{
+	width:27px;
+}
+#txtbuscar{
+  float:left;
+  background-color:transparent;
+  padding-left:3px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  border-radius:15px;
+  border-color:#FFFAFA;
+  height:32px;
+  width:260px;
+}
+#logo{
+	width:500px;
+	height:200px;
+	background-image:url('imagens/logobrumado.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	margin-left:auto;
+    margin-right:auto;
+}
+
+nav{
+	background-color:#FF0000;
+	font-family:'principal';
+}
+
+nav ul{
+	display:flex;
+	list-style:none;
+	height:50px;
+	justify-content:space-evenly;
+	align-items:center;
+}
+
+a{
+	text-decoration:none;
+}
+
+#cidade{
+	height:200px;
+	background-image:url('imagens/cidade.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+main{
+	font-family:'principal';
+}
+.principal{
+	display:grid;
+	grid-template-columns:90% 10%;
+	
+}
+.redes {
+   justify-self:end;
+}
+
+
+#uabnoticia{
+	width:500px;
+	height:300px;
+}
+#smttnoticia{
+	width:500px;
+	height:300px;
+}
+#secreteriadaeducacao{
+	width:500px;
+	height:300px;
+}
+#acidente{
+	width:500px;
+	height:300px;
+}
+h4{
+	color:white;
+
+}
+footer{
+  background-color:red;
+  display: grid;
+  grid-template-columns:80% 20%;
+  grid-auto-rows: 120px;
+  font-family:'principal';
+}
+.rodape{
+	display:grid;
+	grid-template-columns:80% 20%;
+}
+
+.informacoes{
+	justify-self:end;
+	align-self:end;
+	padding:.5rem;
+}
+
+.noticias{
+	text-align:center;
+}
+
+h1{
+	margin:20px;
+	font-family:'principal';
+}
+
+article{
+	margin:30px;
+}
